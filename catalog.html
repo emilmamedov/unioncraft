@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>UnionCraft</title>
+  </head>
+  <body>
+    <div class="carcas">
+      <!-- HEADER -->
+      <header>
+        <div class="container">
+          <div class="header_wrapper-top">
+            <div class="hamburger hamburger--collapse">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+            </div>
+            <div class="logo">
+              <a href="#">
+                <picture>
+                  <source
+                    srcset="img/logo-mob.png"
+                    media="(max-width: 525px)"
+                  />
+                  <img src="img/logo.png" />
+                </picture>
+              </a>
+            </div>
+            <form class="search_form">
+              <input
+                type="text"
+                name="search"
+                placeholder="Искать декоративную штукатурку"
+              />
+              <button type="submit">
+                <span> Найти </span>
+                <img src="img/lupa.png" alt="" />
+              </button>
+            </form>
+            <div class="contact_us">
+              <div class="contact_us-left">
+                <a href="tel:+7 (812) 912-35-64">+7 (812) 912-35-64</a>
+                <span>Звонок по России бесплатный</span>
+              </div>
+              <div class="contact_us-right">
+                <button>Вам перезвонить?</button>
+              </div>
+            </div>
+            <a href="" class="basket">
+              <img src="img/basket.png" alt="" />
+            </a>
+          </div>
+          <div class="header_wrapper-bottom">
+            <nav class="menu">
+              <ul>
+                <li>
+                  <a href="#">Главная</a>
+                </li>
+                <li>
+                  <a href="#">Декоративные штукатурки</a>
+                </li>
+                <li>
+                  <a href="#">Покрытия</a>
+                </li>
+                <li>
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- CONTENT -->
+      <main class="main">
+        <div class="container">
+          <aside>
+            <div class="aside_content">
+              <div class="filter">
+                <div class="filter_wrapper">
+                  <div class="filter_wrapper-img">
+                    <img src="img/effect-icon.png" alt="" />
+                  </div>
+                  <h3 class="title">Эффекты</h3>
+                  <svg
+                    width="9"
+                    height="6"
+                    viewBox="0 0 9 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.28321 5.01341C4.88285 5.51774 4.11715 5.51773 3.71679 5.01341L1.0243 1.62176C0.50404 0.966397 0.970753 1.64312e-07 1.80751 2.37464e-07L7.19249 7.08234e-07C8.02925 7.81386e-07 8.49596 0.966399 7.9757 1.62176L5.28321 5.01341Z"
+                      fill="black"
+                    />
+                  </svg>
+                </div>
+                <div class="inner" style="display: none">
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span></span>
+                    </span>
+                    <h4>Стены</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Потолки</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Пол</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Мебель</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Гостиная</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Кухня</h4>
+                  </label>
+                </div>
+              </div>
+              <div class="filter">
+                <div class="filter_wrapper">
+                  <div class="filter_wrapper-img">
+                    <img src="img/primeneniye.png" alt="" />
+                  </div>
+                  <h3 class="title">Применение</h3>
+                  <svg
+                    width="9"
+                    height="6"
+                    viewBox="0 0 9 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.28321 5.01341C4.88285 5.51774 4.11715 5.51773 3.71679 5.01341L1.0243 1.62176C0.50404 0.966397 0.970753 1.64312e-07 1.80751 2.37464e-07L7.19249 7.08234e-07C8.02925 7.81386e-07 8.49596 0.966399 7.9757 1.62176L5.28321 5.01341Z"
+                      fill="black"
+                    />
+                  </svg>
+                </div>
+                <div class="inner" style="display: none">
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span></span>
+                    </span>
+                    <h4>Стены</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Потолки</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Пол</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Мебель</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Гостиная</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Кухня</h4>
+                  </label>
+                </div>
+              </div>
+              <div class="filter">
+                <div class="filter_wrapper">
+                  <div class="filter_wrapper-img">
+                    <img src="img/stoimost.png" alt="" />
+                  </div>
+                  <h3 class="title">Стоимость за 1 м<sup>2</sup></h3>
+                  <svg
+                    width="9"
+                    height="6"
+                    viewBox="0 0 9 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.28321 5.01341C4.88285 5.51774 4.11715 5.51773 3.71679 5.01341L1.0243 1.62176C0.50404 0.966397 0.970753 1.64312e-07 1.80751 2.37464e-07L7.19249 7.08234e-07C8.02925 7.81386e-07 8.49596 0.966399 7.9757 1.62176L5.28321 5.01341Z"
+                      fill="black"
+                    />
+                  </svg>
+                </div>
+                <div class="inner" style="display: none">
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span></span>
+                    </span>
+                    <h4>Стены</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Потолки</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Пол</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Мебель</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Гостиная</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Кухня</h4>
+                  </label>
+                </div>
+              </div>
+              <div class="filter">
+                <div class="filter_wrapper">
+                  <div class="filter_wrapper-img">
+                    <img src="img/tipPokritiya.png" alt="" />
+                  </div>
+                  <h3 class="title">Тип покрытия</h3>
+                  <svg
+                    width="9"
+                    height="6"
+                    viewBox="0 0 9 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.28321 5.01341C4.88285 5.51774 4.11715 5.51773 3.71679 5.01341L1.0243 1.62176C0.50404 0.966397 0.970753 1.64312e-07 1.80751 2.37464e-07L7.19249 7.08234e-07C8.02925 7.81386e-07 8.49596 0.966399 7.9757 1.62176L5.28321 5.01341Z"
+                      fill="black"
+                    />
+                  </svg>
+                </div>
+                <div class="inner" style="display: none">
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span></span>
+                    </span>
+                    <h4>Стены</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Потолки</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Пол</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Мебель</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Гостиная</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Кухня</h4>
+                  </label>
+                </div>
+              </div>
+              <div class="filter">
+                <div class="filter_wrapper">
+                  <div class="filter_wrapper-img">
+                    <img src="img/tipPoverxnosti.png" alt="" />
+                  </div>
+                  <h3 class="title">Тип поверхности</h3>
+                  <svg
+                    width="9"
+                    height="6"
+                    viewBox="0 0 9 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.28321 5.01341C4.88285 5.51774 4.11715 5.51773 3.71679 5.01341L1.0243 1.62176C0.50404 0.966397 0.970753 1.64312e-07 1.80751 2.37464e-07L7.19249 7.08234e-07C8.02925 7.81386e-07 8.49596 0.966399 7.9757 1.62176L5.28321 5.01341Z"
+                      fill="black"
+                    />
+                  </svg>
+                </div>
+                <div class="inner" style="display: none">
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span></span>
+                    </span>
+                    <h4>Стены</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Потолки</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Пол</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Мебель</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Гостиная</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Кухня</h4>
+                  </label>
+                </div>
+              </div>
+              <div class="filter">
+                <div class="filter_wrapper">
+                  <div class="filter_wrapper-img">
+                    <img src="img/uxodPokritiye.png" alt="" />
+                  </div>
+                  <h3 class="title">Уход за покрытием</h3>
+                  <svg
+                    width="9"
+                    height="6"
+                    viewBox="0 0 9 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.28321 5.01341C4.88285 5.51774 4.11715 5.51773 3.71679 5.01341L1.0243 1.62176C0.50404 0.966397 0.970753 1.64312e-07 1.80751 2.37464e-07L7.19249 7.08234e-07C8.02925 7.81386e-07 8.49596 0.966399 7.9757 1.62176L5.28321 5.01341Z"
+                      fill="black"
+                    />
+                  </svg>
+                </div>
+                <div class="inner" style="display: none">
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span></span>
+                    </span>
+                    <h4>Стены</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Потолки</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Пол</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Мебель</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Гостиная</h4>
+                  </label>
+                  <label>
+                    <input type="checkbox" name="filters[]" value="" />
+                    <span class="fake_checkbox">
+                      <span> </span>
+                    </span>
+                    <h4>Кухня</h4>
+                  </label>
+                </div>
+              </div>
+              <a href="" class="see_allProduct">
+                Посмотреть 27 товаров
+              </a>
+            </div>
+          </aside>
+          <div class="content">
+            <div class="breadcrumbs">
+              <ul>
+                <li class="breadcrumb active">
+                  <a href="">Главная</a>
+                </li>
+                <li class="breadcrumb">
+                  <span> Вакансии </span>
+                </li>
+              </ul>
+            </div>
+            <h2 class="content_title">Каталог</h2>
+            <p class="content_subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi
+              risus lectus odio eu, tellus vitae amet. Nibh quam sed rhoncus
+              justo viverra. Justo, vel non faucibus orci sit. Purus pharetra
+              pellentesque mauris ultrices erat imperdiet sagittis quis.
+            </p>
+            <div class="links">
+              <a href="">Для гостиной</a>
+              <a href="">Современный стиль</a>
+              <a href="">Шелк</a>
+              <a href="">Для гостиной</a>
+              <a href="">Современный стиль</a>
+              <a href="">Шелк</a>
+              <a href="">Для гостиной</a>
+              <a href="">Современный стиль</a>
+              <a href="">Современный стиль</a>
+              <a href="">Шелк</a>
+            </div>
+            <div class="content_nav">
+              <div class="sorting">
+                <span class="sorting_title"> Сортировка: </span>
+                <div class="select">
+                  <div class="visual_part">
+                    <img class="sort_img" src="img/sortImg.png" alt="" />
+                    <span>Популярные</span>
+                  </div>
+                  <div class="list" style="display: none">
+                    <div>
+                      <a href="#">Популярные</a>
+                    </div>
+                    <div>
+                      <a href="#">Популярные</a>
+                    </div>
+                    <div>
+                      <a href="#">Популярные</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product_count">13 товаров</div>
+              <div class="pagination">
+                <a href="" class="pagination_left">
+                  <img src="img/pg-left.png" alt="" />
+                </a>
+                <span>Страница 1 из 3</span>
+                <a href="" class="pagination_right">
+                  <img src="img/pg-right.png" alt="" />
+                </a>
+              </div>
+              <div class="filter_choose" data-btn="filter_modal">
+                <img src="img/plus.png" alt="" />
+                <span> Фильтры </span>
+              </div>
+            </div>
+            <div class="content_wrapper">
+              <div class="item">
+                <a href="">
+                  <img src="img/pic1.jpg" alt="" />
+                </a>
+                <div class="mob_price-content"></div>
+                <h3 class="item_title">Название краски</h3>
+                <p class="item_subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span
+                    >Facilisi</span
+                  >
+                  risus lectus odio eu, tellus vitae amet. Nibh quam sed rhoncus
+                  justo viverra. Justo, vel non faucibus orci sit.
+                </p>
+                <div class="item_bottom">
+                  <div class="item_bottom-btns">
+                    <a href="" class="one_click-btn">
+                      <span> Купить в 1 клик </span>
+                      <img src="img/purse.png" alt="" />
+                    </a>
+                    <a href="" class="detail_btn">Подробнее</a>
+                  </div>
+                  <div class="price">
+                    от <span>456</span> руб./м<sup>2</sup>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="img/pic2.jpg" alt="" />
+                </a>
+                <div class="mob_price-content"></div>
+                <h3 class="item_title">Название краски</h3>
+                <p class="item_subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Facilisi risus lectus odio eu, tellus vitae amet. Nibh quam
+                  sed rhoncus justo viverra. Justo, vel non faucibus orci sit.
+                </p>
+                <div class="item_bottom">
+                  <div class="item_bottom-btns">
+                    <a href="" class="one_click-btn">
+                      <span> Купить в 1 клик </span>
+                      <img src="img/purse.png" alt="" />
+                    </a>
+                    <a href="" class="detail_btn">Подробнее</a>
+                  </div>
+                  <div class="price">
+                    от <span>456</span> руб./м<sup>2</sup>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="img/pic1.jpg" alt="" />
+                </a>
+                <div class="mob_price-content"></div>
+
+                <h3 class="item_title">Название краски</h3>
+                <p class="item_subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Facilisi risus lectus odio eu, tellus vitae amet. Nibh quam
+                  sed rhoncus justo viverra. Justo, vel non faucibus orci sit.
+                </p>
+                <div class="item_bottom">
+                  <div class="item_bottom-btns">
+                    <a href="" class="one_click-btn">
+                      <span> Купить в 1 клик </span>
+                      <img src="img/purse.png" alt="" />
+                    </a>
+                    <a href="" class="detail_btn">Подробнее</a>
+                  </div>
+                  <div class="price">
+                    от <span>456</span> руб./м<sup>2</sup>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="img/pic2.jpg" alt="" />
+                </a>
+                <div class="mob_price-content"></div>
+
+                <h3 class="item_title">Название краски</h3>
+                <p class="item_subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Facilisi risus lectus odio eu, tellus vitae amet. Nibh quam
+                  sed rhoncus justo viverra. Justo, vel non faucibus orci sit.
+                </p>
+                <div class="item_bottom">
+                  <div class="item_bottom-btns">
+                    <a href="" class="one_click-btn">
+                      <span> Купить в 1 клик </span>
+                      <img src="img/purse.png" alt="" />
+                    </a>
+                    <a href="" class="detail_btn">Подробнее</a>
+                  </div>
+                  <div class="price">
+                    от <span>456</span> руб./м<sup>2</sup>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="img/pic1.jpg" alt="" />
+                </a>
+                <div class="mob_price-content"></div>
+
+                <h3 class="item_title">Название краски</h3>
+                <p class="item_subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Facilisi risus lectus odio eu, tellus vitae amet. Nibh quam
+                  sed rhoncus justo viverra. Justo, vel non faucibus orci sit.
+                </p>
+                <div class="item_bottom">
+                  <div class="item_bottom-btns">
+                    <a href="" class="one_click-btn">
+                      <span> Купить в 1 клик </span>
+                      <img src="img/purse.png" alt="" />
+                    </a>
+                    <a href="" class="detail_btn">Подробнее</a>
+                  </div>
+                  <div class="price">
+                    от <span>456</span> руб./м<sup>2</sup>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="img/pic2.jpg" alt="" />
+                </a>
+                <div class="mob_price-content"></div>
+
+                <h3 class="item_title">Название краски</h3>
+                <p class="item_subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Facilisi risus lectus odio eu, tellus vitae amet. Nibh quam
+                  sed rhoncus justo viverra. Justo, vel non faucibus orci sit.
+                </p>
+                <div class="item_bottom">
+                  <div class="item_bottom-btns">
+                    <a href="" class="one_click-btn">
+                      <span> Купить в 1 клик </span>
+                      <img src="img/purse.png" alt="" />
+                    </a>
+                    <a href="" class="detail_btn">Подробнее</a>
+                  </div>
+                  <div class="price">
+                    от <span>456</span> руб./м<sup>2</sup>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="img/pic1.jpg" alt="" />
+                </a>
+                <div class="mob_price-content"></div>
+
+                <h3 class="item_title">Название краски</h3>
+                <p class="item_subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Facilisi risus lectus odio eu, tellus vitae amet. Nibh quam
+                  sed rhoncus justo viverra. Justo, vel non faucibus orci sit.
+                </p>
+                <div class="item_bottom">
+                  <div class="item_bottom-btns">
+                    <a href="" class="one_click-btn">
+                      <span> Купить в 1 клик </span>
+                      <img src="img/purse.png" alt="" />
+                    </a>
+                    <a href="" class="detail_btn">Подробнее</a>
+                  </div>
+                  <div class="price">
+                    от <span>456</span> руб./м<sup>2</sup>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <a href="">
+                  <img src="img/pic2.jpg" alt="" />
+                </a>
+                <div class="mob_price-content"></div>
+
+                <h3 class="item_title">Название краски</h3>
+                <p class="item_subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Facilisi risus lectus odio eu, tellus vitae amet. Nibh quam
+                  sed rhoncus justo viverra. Justo, vel non faucibus orci sit.
+                </p>
+                <div class="item_bottom">
+                  <div class="item_bottom-btns">
+                    <a href="" class="one_click-btn">
+                      <span> Купить в 1 клик </span>
+                      <img src="img/purse.png" alt="" />
+                    </a>
+                    <a href="" class="detail_btn">Подробнее</a>
+                  </div>
+                  <div class="price">
+                    от <span>456</span> руб./м<sup>2</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pagination_mob">
+              <ul>
+                <li>
+                  <a href="">
+                    <img src="img/mobArrowLeft.png" alt="" />
+                    <img src="img/mobArrowLeft.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="">1</a>
+                </li>
+                <li>
+                  <a href="">2</a>
+                </li>
+                <li>
+                  <a href="">3</a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/mobArrowRight.png" alt="" />
+                    <img src="img/mobArrowRight.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <a class="scrollto goToTop_btn">
+          <img src="img/slide-up.png" alt="" />
+        </a>
+      </main>
+      <!-- MODAL -->
+      <div class="modal filter_modal" id="modal" style="display: none">
+        <div class="overflow">
+          <div class="filter_mob">
+            <div class="mob_filter-wrapper">
+              <div class="filter_content">
+                <span> Фильтры </span>
+                <a href="">Сбросить все</a>
+              </div>
+              <div class="close"></div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/libs.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
